@@ -1,85 +1,33 @@
-## Create a motif
+<h2 class="c-project-heading--task">Create a motif</h2>
+--- task ---
+Get creative with simple shapes.
+--- /task ---
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Most patterns have one design (called the **motif**) that repeats to create a pattern. 
-</div>
+Create a **motif** design with shapes that repeats to create a pattern. 
+
 <div>
 ![An example of a motif using various shapes to create the motif.](images/motif.png){:width="300px"}
 </div>
-</div>
 
 --- task ---
-
-Draw shapes to create your motif. Use the tips at the bottom of the page if you need help.
-
+Experiment with shapes to create your motif. Use the tips at the bottom of the page if you need help.
 --- /task ---
 
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+CODE THEY WRITE HERE
+--- /code ---
 --- task ---
-
 **Test:** Run your code to see what your design looks like. 
-
 --- /task ---
-
-### Shapes
-
-[[[processing-python-ellipse]]]
-
-[[[processing-python-rect]]]
-
-[[[processing-python-triangle]]]
-
-
-### Colours and effects
-
-[[[processing-opacity]]]
-
-[[[processing-stroke]]]
-
-[[[processing-tint]]]
-
-### Position and transform
-
-[[[processing-matrix]]]
-
-[[[processing-translation]]]
-
-[[[processing-rotation]]]
-
-[[[python-operators]]]
-
-[[[generic-python-for-loop-repeat]]]
-
-### Bugs
-
---- collapse ---
----
-title: Shapes are not aligned as I expected
----
-
-If you want the shapes to be aligned, then take a closer look at your coordinate points. Experiment with the numbers until you have the layout you want. 
-
---- /collapse ---
-
---- collapse ---
----
-title: I can't see some of the shapes in my motif
----
-
-The order in which you draw things is very important.
-
-Computer graphics are made of layers. In your motif, each shape is a layer. Objects on higher layers sit in front of objects on lower layers. Imagine cutting all the shapes out of paper. Depending on how you arrange and overlap that paper, the final result could look very different.
-
---- /collapse ---
-
---- collapse ---
----
-title: My circles/squares are not equal
----
-
-The third and fourth numbers in `ellipse` and `rect` are the width and height. If you make them the same, you will get a circle or square. 
-
---- /collapse ---
+</div>
 
 
 
