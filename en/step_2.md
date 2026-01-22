@@ -3,7 +3,7 @@
 Get started by changing the colour and size values.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Red, green, blue</div>
+<h2 class="c-project-heading--explainer">Red, green, blue</h2>
 The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`. 
 
 <div class="c-project-callout c-project-callout--tip">
