@@ -12,14 +12,14 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - title: Step 1
-  - title: Get started
+  - title: Step 2
     completion:
       - engaged
-  - title: Create a motif  
+  - title: Step 3
     completion:
       - internal
-  - title: Make the pattern
+  - title: Step 4
     completion:
       - external
-  - title: Challenge
+  - title: Step 5
     challenge: true
