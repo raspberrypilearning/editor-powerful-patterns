@@ -15,7 +15,7 @@ Red, green and blue are often shortened to RGB
 </div>
 
 --- task ---
-Edit the `size` and a `background` colour by experimenting with differnt red, green and blue values.
+Edit the `size` and a `background` colour by experimenting with different red, green and blue values.
 
 --- /task ---
 
@@ -32,6 +32,7 @@ def setup():
     size(400, 400)  # Choose a size 
     background(255, 255, 255)  # Try different numbers to change the colour 
 --- /code ---
+
 --- task ---
 **Test:** Run your project to see the changes. 
 --- /task ---
