@@ -1,45 +1,26 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
 
-A brief description - one or two sentences. 
+Create a piece of art using repeated patterns. 
+
+--- no-print ---
+
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/repeated-patterns-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+
+--- /no-print ---
 
 --- print-only ---
 
-![ALT TEXT](images/IMAGE.png)
+[Spirals](https://editor.raspberrypi.org/en/projects/spirals-pattern-example)
+![Complete Spirals project.](images/spirals.png)
+
+[Random faces](https://editor.raspberrypi.org/en/projects/random-faces-example)
+![Complete Random faces project.](images/random_faces.png)
+
+[Art deco](https://editor.raspberrypi.org/en/projects/art-deco-example)
+![Complete Art deco project.](images/art_deco.png)
+
+[Yakan weaving](https://editor.raspberrypi.org/en/projects/yakan-weaving-example)
+![Complete Yakan weaving project.](images/yakan.png)
 
 --- /print-only ---
 
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
-
---- /no-print ---
-
-### You will need:
-- a
-- b
-- c
