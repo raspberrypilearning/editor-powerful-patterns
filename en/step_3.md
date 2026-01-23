@@ -31,7 +31,7 @@ def draw():
 
 def draw():
     # Put code to run every frame here
-    rect(50, 50, 120, 100) 
+    rect(100, 50, 120, 100) 
     ellipse(160, 220, 200, 100) 
 --- /code ---
 --- task ---

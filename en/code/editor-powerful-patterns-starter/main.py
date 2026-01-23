@@ -5,8 +5,8 @@ from random import randint
 def draw():
     def setup():
     # Put code to run once here
-    size(400, 400)
-    background(255, 255, 255)
+    size(400, 400)  # Size of background
+    background(0, 255, 255)  # Try different numbers to change the colour 
 
 
 def draw():

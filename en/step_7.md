@@ -1,13 +1,13 @@
-<h2 class="c-project-heading--task">Play with scale</h2>
+<h2 class="c-project-heading--task">Random shapes</h2>
 --- task ---
-Use `scale()` to change the size of shapes.
+Experiment with `randint` to make animated patterns
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Make it big or small</h2>
 Using numbers bigger than ‘1’ will make the shape bigger, using a number smaller than ‘1’ will make it smaller.
 
 --- task ---
-Comment out the `translate` code, and experiment with `scale` in your design. 
+Use random numbers to draw shapes in different positions:
 --- /task ---
 
 <div class="c-project-code">
@@ -23,7 +23,7 @@ def draw():
     # Put code to run every frame here
     for i in range(12):
         fill(255, 0, 255, 255)    
-        rect(50, 50, 120, 100) 
+        rect(randint(-100, 400), randint(-100, 400), 120, 100) 
         fill(0, 0, 255)
         ellipse(160, 220, 200, 100) 
         # translate(10,10)
