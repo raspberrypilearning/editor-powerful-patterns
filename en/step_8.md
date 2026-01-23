@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Challenges</h2>
 --- task ---
-Upgrade your art with emojis and animations.
+Upgrade your design with emojis and animations.
 --- /task ---
 
 --- task ---

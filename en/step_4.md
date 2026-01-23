@@ -7,8 +7,7 @@ Add some colour and make your shapes transparent.
 Adjust the numbers in `fill()` to make different colours.
 --- /task ---
 
-The first three numbers change the colour of the shape. The fourth number changes the opacity, so the shape becomes transparent.
-
+In `fill(255, 0, 255)` the numbers change the red, green and blue colour values of the shape. 
 
 <div class="c-project-code">
 --- code ---

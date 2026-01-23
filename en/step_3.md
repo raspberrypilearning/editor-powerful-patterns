@@ -11,7 +11,6 @@ Adjust the numbers in `rect` and `ellipse` to add shapes to your design.
 Copy and paste more rectangles and ellipses in the code to add more shapes. 
 --- /task ---
 
-
 <div class="c-project-code">
 --- code ---
 ---

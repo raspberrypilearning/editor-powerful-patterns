@@ -3,11 +3,10 @@
 Experiment with `randint` to make animated patterns
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Make it big or small</h2>
-Using numbers bigger than ‘1’ will make the shape bigger, using a number smaller than ‘1’ will make it smaller.
-
 --- task ---
-Use random numbers to draw shapes in different positions:
+`randint()` generates a random number. 
+
+Add it to `rect()` to draw rectangles between -100 and 400.
 --- /task ---
 
 <div class="c-project-code">
@@ -16,8 +15,8 @@ Use random numbers to draw shapes in different positions:
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 11
-line_highlights: 19
+line_number_start: 8
+line_highlights: 11
 ---
 def draw():
     # Put code to run every frame here
@@ -32,7 +31,12 @@ def draw():
 </div>
 
 --- task ---
-**Test:** Run the code to see how your pattern looks.
+**Test:** Run the code to test it.
+
+Experiment with `randint()` to change other values in your code.
 --- /task ---
 
 
+<div class="c-project-output">
+![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/step7.gif)
+</div>

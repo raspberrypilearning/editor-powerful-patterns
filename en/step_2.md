@@ -32,6 +32,6 @@ def setup():
 </div>
 
 <div class="c-project-output">
-![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/step2.png)
+![Visual output screen with coloured background](images/step2.png)
 </div>
 

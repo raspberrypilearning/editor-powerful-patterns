@@ -3,9 +3,6 @@
 Use `scale()` to change the size of shapes.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Make it big or small</h2>
-Using numbers bigger than ‘1’ will make the shape bigger, using a number smaller than ‘1’ will make it smaller.
-
 --- task ---
 Comment out the `translate` code, and experiment with `scale` in your design. 
 --- /task ---
@@ -35,4 +32,15 @@ def draw():
 **Test:** Run the code to see how your pattern looks.
 --- /task ---
 
+
+<div class="c-project-output">
+![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/step6.png)
+</div>
+
+
+<div class="c-project-callout c-project-callout--tip">
+### Make it big or small
+
+Using numbers bigger than ‘1’ will make the shape bigger, using a number smaller than ‘1’ will make it smaller.
+</div>
 
