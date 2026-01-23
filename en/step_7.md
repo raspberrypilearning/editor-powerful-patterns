@@ -38,5 +38,5 @@ Experiment with `randint()` to change other values in your code.
 
 
 <div class="c-project-output">
-![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/step7.gif)
+![Visual output screen with two shapes randomly being drawn to the screen.](images/step7.gif)
 </div>

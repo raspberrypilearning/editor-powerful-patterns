@@ -33,7 +33,7 @@ def draw():
 </div>
 
 <div class="c-project-output">
-![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/step5.png)
+![EVisual output screen with two shapes in a pattern.](images/step5.png)
 </div>
 
 <div class="c-project-callout c-project-callout--debug">

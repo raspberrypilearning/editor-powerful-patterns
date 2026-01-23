@@ -31,7 +31,7 @@ def draw():
 </div>
 
 <div class="c-project-output">
-![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/step4.png)
+![Visual output screen with two coloured shapes.](images/step4.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

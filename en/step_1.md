@@ -4,10 +4,10 @@ Experiment with different shapes to make a colourful design.
 --- /task ---
 
 <div class="c-project-output">
-![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/second.gif)
+![Examples a pattern made with squares and circles.](images/example-output.gif)
 </div>
 
 <div class="c-project-output">
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/repeated-patterns-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-powerfull-patterns-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 </div>

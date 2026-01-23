@@ -34,7 +34,7 @@ def draw():
 
 
 <div class="c-project-output">
-![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/step6.png)
+![Visual output screen with two shapes in a range of scale.](images/step6.png)
 </div>
 
 
