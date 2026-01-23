@@ -15,9 +15,12 @@ Edit the `background` colour by experimenting with different values.
 ---
 language: python
 line_numbers: true
-line_number_start: 5
+line_number_start: 1
 line_highlights: 6-7
 ---
+from p5 import *
+from random import randint
+
 def setup():
     size(400, 400)  # Size of background
     background(0, 255, 255)  # Try different numbers to change the colour 

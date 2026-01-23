@@ -1,12 +1,10 @@
 <h2 class="c-project-heading--task">What you will make</h2>
 --- task ---
-Create a piece of art using repeated patterns. 
+Experiment with different shapes to make a colourful design.
 --- /task ---
 
-Experiment with different shapes to make a colourful design.
-
 <div class="c-project-output">
-[Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/second.gif)
+![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/second.gif)
 </div>
 
 <div class="c-project-output">
