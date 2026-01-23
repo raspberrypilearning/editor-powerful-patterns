@@ -3,9 +3,9 @@
 Experiment with different shapes to make a colourful design.
 --- /task ---
 
-<div class="c-project-output">
-![Examples a pattern made with squares and circles.](images/example-output.gif)
-</div>
+--- task ---
+**Run** the example below to see some of the colours and shapes you can design with.
+--- /task ---
 
 <div class="c-project-output">
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-powerful-patterns-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
