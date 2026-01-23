@@ -1,21 +1,29 @@
-<h2 class="c-project-heading--task">Challenges</h2>
+<h2 class="c-project-heading--task">Make the patternE</h2>
 --- task ---
-Upgrade your art with emojis, interaction and animations.
+Now that you have a **motif**, you can repeat it to make a pattern
 --- /task ---
 
-
-![Finished examples with input and make a face elements](images/upgrade.gif)
-
---- task ---
-Use text and emojis to `print()` a description of your pattern
---- /task ---
+![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/second.gif)
 
 --- task ---
-Adjust the size of your pattern based on user `input()`
+Move, resize and repeat the motif you have created to make a repeating pattern. Use the tips at the bottom of the page if you need help.
+
 --- /task ---
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+CODE THEY WRITE HERE
+--- /code ---
+</div>
 
 --- task ---
-Animate your pattern so that it appears in stages.
-
-GIVE EXAMPLE
+**Test:** Run the code to see how your pattern looks.
 --- /task ---
+

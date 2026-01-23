@@ -1,32 +1,23 @@
 <h2 class="c-project-heading--task">Style the background</h2>
 --- task ---
-Get started by changing the colour and size values.
+Get started by changing the colour and size values of the background.
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Red, green, blue</h2>
 The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`. 
 
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-Red, green and blue are often shortened to RGB
-
-</div>
 
 --- task ---
-Edit the `size` and a `background` colour by experimenting with different red, green and blue values.
-
+Edit the `size` and a `background` colour by experimenting with different values.
 --- /task ---
 
 <div class="c-project-code">
-
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 6
-line_highlights: 7-8
+line_number_start: 5
+line_highlights: 6-7ß
 ---
 def setup():
     size(400, 400)  # Choose a size 

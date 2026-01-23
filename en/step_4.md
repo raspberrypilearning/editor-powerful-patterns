@@ -1,14 +1,17 @@
-<h2 class="c-project-heading--task">Make the patternE</h2>
+<h2 class="c-project-heading--task">Play with colour</h2>
 --- task ---
-Now that you have a **motif**, you can repeat it to make a pattern
+Add some colour to your designs
 --- /task ---
 
-![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/second.gif)
+<h2 class="c-project-heading--explainer">Fill first and then shape</h2>
+Each time you make a new shape, change the colour first with `fill()`, then add the code for the shape.
 
 --- task ---
-Move, resize and repeat the motif you have created to make a repeating pattern. Use the tips at the bottom of the page if you need help.
+Adjust the numbers in `rect` and `ellipse` to make your design.
 
+Copy and paste more rectangles and ellipses in the code to add shapes. 
 --- /task ---
+
 
 <div class="c-project-code">
 --- code ---
@@ -16,14 +19,17 @@ Move, resize and repeat the motif you have created to make a repeating pattern. 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 12
+line_highlights: 14, 16
 ---
-CODE THEY WRITE HERE
+def draw():
+    # Put code to run every frame here
+    fill(255, 0, 255)    
+    rect(50, 50, 120, 100) 
+    fill(255, 0, 255) 
+    ellipse(160, 220, 200, 100) 
 --- /code ---
-</div>
-
 --- task ---
-**Test:** Run the code to see how your pattern looks.
+**Test:** Run your code to see what your design looks like.
 --- /task ---
-
+</div>
