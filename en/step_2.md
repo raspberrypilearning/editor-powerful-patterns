@@ -7,7 +7,7 @@ Get started by changing the colour of the background.
 The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`. 
 
 --- task ---
-Edit the `background` colour by experimenting with different values.
+Change the `background` colour experimenting with different values in the starter code.
 --- /task ---
 
 <div class="c-project-code">
@@ -16,20 +16,22 @@ Edit the `background` colour by experimenting with different values.
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 6-7
+line_highlights: 5-6
 ---
 from p5 import *
 from random import randint
 
 def setup():
-    size(400, 400)  # Size of background
-    background(0, 255, 255)  # Try different numbers to change the colour 
+    size(400, 400)
+    background(0, 255, 255)
 --- /code ---
 
 --- task ---
-**Test:** Run your project to see the changes. 
+**Test:** Run your project and see the background change the colours in the **Visual output** tab.
 --- /task ---
 </div>
 
-
+<div class="c-project-output">
+![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/step2.png)
+</div>
 

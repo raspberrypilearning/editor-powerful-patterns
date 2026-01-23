@@ -3,15 +3,12 @@
 Add some colour and make your shapes transparent.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Fill first, then add the shape</h2>
-Each time you make a new shape, change the colour first with `fill()`, then add the code for the shape.
-
-<h2 class="c-project-heading--explainer">fill(red, green, blue, opacity)</h2>
-The first three numbers change the colour. The fourth changes the opacity, so the shape becomes more or less transparent.
-
 --- task ---
-Adjust the numbers in `fill` to make different colours.
+Adjust the numbers in `fill()` to make different colours.
 --- /task ---
+
+The first three numbers change the colour of the shape. The fourth number changes the opacity, so the shape becomes transparent.
+
 
 <div class="c-project-code">
 --- code ---
@@ -19,18 +16,29 @@ Adjust the numbers in `fill` to make different colours.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 12
-line_highlights: 14, 16
+line_number_start: 8
+line_highlights: 9, 11
 ---
 def draw():
-    # Put code to run every frame here
-    fill(255, 0, 255, 200)    
-    rect(50, 50, 120, 100) 
-    fill(0, 0, 255)
-    ellipse(160, 220, 200, 125) 
+    fill(255, 0, 255, 200)
+    rect(100, 50, 120, 100)
+    fill(0, 0, 255, 100)
+    ellipse(160, 220, 200, 100)
 
 --- /code ---
 --- task ---
-**Test:** Run your code to see what your design looks like.
+**Test:** Run your code to add colour.
 --- /task ---
+</div>
+
+<div class="c-project-output">
+![Examples of finished projects that have the motif used repeatedly to form a full pattern.](images/step4.png)
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Choose the colour, then draw the shape
+
+Decide on what colour you want first with `fill()`, then add the code to draw the shape.
+
 </div>

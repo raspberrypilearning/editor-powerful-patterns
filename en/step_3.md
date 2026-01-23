@@ -3,13 +3,12 @@
 Create a design with different shapes. 
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Experimenting with shapes</h2>
-The two shapes `rect()` and `ellipse()` have four values which are the x, y position on the screen, and the width and height of the shape.
+--- task ---
+Adjust the numbers in `rect` and `ellipse` to add shapes to your design.
+--- /task ---
 
 --- task ---
-Adjust the numbers in `rect` and `ellipse` to make your design.
-
-Copy and paste more rectangles and ellipses in the code to add shapes. 
+Copy and paste more rectangles and ellipses in the code to add more shapes. 
 --- /task ---
 
 
@@ -19,26 +18,25 @@ Copy and paste more rectangles and ellipses in the code to add shapes.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7 
-line_highlights: 14-15
+line_number_start: 1 
+line_highlights: 8-10
 ---
-def draw():
-    def setup():
-    # Put code to run once here
+from p5 import *
+from random import randint
+
+def setup():
     size(400, 400)
-    background(255, 255, 255)
-
+    background(0, 255, 255)
 
 def draw():
-    # Put code to run every frame here
-    rect(100, 50, 120, 100) 
-    ellipse(160, 220, 200, 100) 
+    rect(100, 50, 120, 100)
+    ellipse(160, 220, 200, 100)
 --- /code ---
 --- task ---
-**Test:** Run your code to see what your design looks like.
+**Test:** Run your code to draw some shapes.
 --- /task ---
 </div>
 
-<div>
-![An example of a motif using various shapes to create the motif.](images/motif.png){:width="300px"}
+<div class="c-project-output">
+![Visual output screen with two shapes](images/step3.png)
 </div>
