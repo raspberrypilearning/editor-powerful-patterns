@@ -8,6 +8,6 @@ Experiment with different shapes to make a colourful design.
 </div>
 
 <div class="c-project-output">
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-powerfull-patterns-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-powerful-patterns-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 </div>

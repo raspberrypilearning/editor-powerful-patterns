@@ -3,12 +3,14 @@
 Get started by changing the colour of the background.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Red, green, blue</h2>
-The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`. 
-
 --- task ---
-Change the `background` colour experimenting with different values in the starter code.
+Change the `background` colour by experimenting with different values in the starter code.
 --- /task ---
+
+<div class="c-project-callout c-project-callout--tip">
+### Red, green, blue
+The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
+</div> 
 
 <div class="c-project-code">
 --- code ---
@@ -23,7 +25,7 @@ from random import randint
 
 def setup():
     size(400, 400)
-    background(0, 255, 255)
+    background(0, 255, 255) # change background colour
 --- /code ---
 
 --- task ---
