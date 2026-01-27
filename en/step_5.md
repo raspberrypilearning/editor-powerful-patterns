@@ -1,13 +1,17 @@
 <h2 class="c-project-heading--task">Turn the shapes</h2>
 --- task ---
+
 Put your shapes into a loop, and use `translate` to make some repeated patterns.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Translate</h2>
 `translate` changes the starting position. In a loop these turns the shape a different amount each time.
 
 --- task ---
+
 Put your code into a loop, every time it runs the starting position will change by the numbers you use in `translate()`. 
+
 --- /task ---
 
 <div class="c-project-code">
@@ -27,8 +31,11 @@ def draw():
         ellipse(160, 220, 200, 100) 
         translate(10, 10)  # Change the position by 10
 --- /code ---
+
 --- task ---
+
 **Test:** Run the code and make a pattern.
+
 --- /task ---
 </div>
 

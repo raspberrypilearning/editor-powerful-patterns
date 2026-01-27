@@ -1,12 +1,16 @@
 <h2 class="c-project-heading--task">Random shapes</h2>
 --- task ---
+
 Experiment with `randint` to make animated patterns
+
 --- /task ---
 
 --- task ---
+
 `randint()` generates a random number. 
 
 Add it to `rect()` to draw rectangles between -100 and 400.
+
 --- /task ---
 
 <div class="c-project-code">
@@ -34,6 +38,7 @@ def draw():
 **Test:** Run the code to test it.
 
 Experiment with `randint()` to change other values in your code.
+
 --- /task ---
 
 

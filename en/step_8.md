@@ -1,9 +1,12 @@
 <h2 class="c-project-heading--task">Challenges</h2>
 --- task ---
+
 Upgrade your design with emojis and animations.
+
 --- /task ---
 
 --- task ---
+
 Use text and emojis to `print()` a description of your pattern in the **Text output** tab.
 
 <div class="c-project-code">
@@ -18,9 +21,11 @@ line_highlights: 1
 print('🟪 󠁢Look at these shapes! 🔵')
 --- /code ---
 </div>
+
 --- /task ---
 
 --- task ---
+
 Experiment with adding `frame_count` to animate your pattern.
 
 <div class="c-project-code">
@@ -38,5 +43,6 @@ def draw():
     rect(5*frame_count, 50, 120, 100) 
 --- /code ---
 </div>
+
 --- /task ---
 

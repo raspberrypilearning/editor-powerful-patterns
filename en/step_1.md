@@ -1,10 +1,14 @@
 <h2 class="c-project-heading--task">What you will make</h2>
 --- task ---
+
 Experiment with different shapes to make a colourful design.
+
 --- /task ---
 
 --- task ---
+
 **Run** the example below to see some of the colours and shapes you can design with.
+
 --- /task ---
 
 <div class="c-project-output">

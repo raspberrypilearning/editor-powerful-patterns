@@ -1,10 +1,14 @@
 <h2 class="c-project-heading--task">Style the background</h2>
 --- task ---
+
 Get started by changing the colour of the background.
+
 --- /task ---
 
 --- task ---
+
 Change the `background` colour by experimenting with different values in the starter code.
+
 --- /task ---
 
 <div class="c-project-callout c-project-callout--tip">
@@ -29,7 +33,9 @@ def setup():
 --- /code ---
 
 --- task ---
+
 **Test:** Run your project and see the background change the colours in the **Visual output** tab.
+
 --- /task ---
 </div>
 

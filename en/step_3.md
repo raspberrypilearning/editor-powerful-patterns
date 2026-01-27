@@ -1,14 +1,20 @@
 <h2 class="c-project-heading--task">Create shapes</h2>
 --- task ---
+
 Create a design with different shapes. 
+
 --- /task ---
 
 --- task ---
+
 Adjust the numbers in `rect` and `ellipse` to add shapes to your design.
+
 --- /task ---
 
 --- task ---
+
 Copy and paste more rectangles and ellipses in the code to add more shapes. 
+
 --- /task ---
 
 <div class="c-project-code">
@@ -31,8 +37,11 @@ def draw():
     rect(100, 50, 120, 100)
     ellipse(160, 220, 200, 100)
 --- /code ---
+
 --- task ---
+
 **Test:** Run your code to draw some shapes.
+
 --- /task ---
 </div>
 

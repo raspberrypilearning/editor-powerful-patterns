@@ -1,10 +1,14 @@
 <h2 class="c-project-heading--task">Play with colour</h2>
 --- task ---
+
 Add some colour and make your shapes transparent.
+
 --- /task ---
 
 --- task ---
+
 Adjust the numbers in `fill()` to make different colours.
+
 --- /task ---
 
 In `fill(255, 0, 255)` the numbers change the red, green and blue colour values of the shape. 
@@ -25,8 +29,11 @@ def draw():
     ellipse(160, 220, 200, 100)
 
 --- /code ---
+
 --- task ---
+
 **Test:** Run your code to add colour.
+
 --- /task ---
 </div>
 
