@@ -19,15 +19,14 @@ Add it to `rect()` to draw rectangles between -100 and 400.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 8
-line_highlights: 11
+line_number_start: 9
+line_highlights: 12
 ---
 def draw():
-    # Put code to run every frame here
-    for i in range(12):
+    for i in range(5):  # Loop 5 times
         fill(255, 0, 255, 255)    
         rect(randint(-100, 400), randint(-100, 400), 120, 100) 
-        fill(0, 0, 255)
+        fill(0, 0, 255, 75)
         ellipse(160, 220, 200, 100) 
         # translate(10,10)
         scale(0.5, 0.5)  # Half size
@@ -35,9 +34,8 @@ def draw():
 </div>
 
 --- task ---
-**Test:** Run the code to test it.
 
-Experiment with `randint()` to change other values in your code.
+**Test:** Run the code to test it.
 
 --- /task ---
 
@@ -45,3 +43,5 @@ Experiment with `randint()` to change other values in your code.
 <div class="c-project-output">
 ![Visual output screen with two shapes randomly being drawn to the screen.](images/step7.gif)
 </div>
+
+

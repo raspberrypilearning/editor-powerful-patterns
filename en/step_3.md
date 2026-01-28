@@ -1,7 +1,7 @@
 <h2 class="c-project-heading--task">Create shapes</h2>
 --- task ---
 
-Create a design with different shapes. 
+Use the code below to create a `draw()` function with two shapes.
 
 --- /task ---
 
@@ -23,12 +23,9 @@ Copy and paste more rectangles and ellipses in the code to add more shapes.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1 
-line_highlights: 8-10
+line_number_start: 4 
+line_highlights: 9-11
 ---
-from p5 import *
-from random import randint
-
 def setup():
     size(400, 400)
     background(0, 255, 255)

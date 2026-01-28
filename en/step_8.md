@@ -7,25 +7,6 @@ Upgrade your design with emojis and animations.
 
 --- task ---
 
-Use text and emojis to `print()` a description of your pattern in the **Text output** tab.
-
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 1
----
-print('🟪 󠁢Look at these shapes! 🔵')
---- /code ---
-</div>
-
---- /task ---
-
---- task ---
-
 Experiment with adding `frame_count` to animate your pattern.
 
 <div class="c-project-code">
@@ -34,11 +15,10 @@ Experiment with adding `frame_count` to animate your pattern.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights: 1-4
+line_number_start: 9
+line_highlights: 
 ---
 def draw():
-    # Put code to run every frame here
     fill(255, 0, 255, +frame_count) 
     rect(5*frame_count, 50, 120, 100) 
 --- /code ---
@@ -46,3 +26,53 @@ def draw():
 
 --- /task ---
 
+
+--- task ---
+
+Use `randint()` to change the `ellipse()` or other values in your code.
+
+--- /task ---
+
+
+--- task ---
+
+Experiment with a new pattern by adding `frame_count`. This animates your pattern.
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 9
+line_highlights: 
+---
+def draw():
+    fill(255, 0, 255, +frame_count) 
+    rect(5*frame_count, 50, 120, 100) 
+--- /code ---
+</div>
+
+--- /task ---
+
+--- task ---
+
+Remove shape outline by adding `no_stroke()` before the shapes.
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 9
+line_highlights: 
+---
+def draw():
+    no_stroke()
+    fill(255, 0, 255, +frame_count) 
+    rect(5*frame_count, 50, 120, 100) 
+--- /code ---
+</div>
+
+--- /task ---

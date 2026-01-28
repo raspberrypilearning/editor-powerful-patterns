@@ -1,7 +1,7 @@
 <h2 class="c-project-heading--task">Play with colour</h2>
 --- task ---
 
-Add some colour and make your shapes transparent.
+Add code to `fill()` your shapes with colour and change your shapes transparency.
 
 --- /task ---
 
@@ -11,7 +11,6 @@ Adjust the numbers in `fill()` to make different colours.
 
 --- /task ---
 
-In `fill(255, 0, 255)` the numbers change the red, green and blue colour values of the shape. 
 
 <div class="c-project-code">
 --- code ---
@@ -19,8 +18,8 @@ In `fill(255, 0, 255)` the numbers change the red, green and blue colour values 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 8
-line_highlights: 9, 11
+line_number_start: 9
+line_highlights: 10, 12
 ---
 def draw():
     fill(255, 0, 255, 200)
@@ -35,6 +34,7 @@ def draw():
 **Test:** Run your code to add colour.
 
 --- /task ---
+
 </div>
 
 <div class="c-project-output">
@@ -43,8 +43,9 @@ def draw():
 
 <div class="c-project-callout c-project-callout--tip">
 
-### Choose the colour, then draw the shape
+### Red, Green, Blue (RGB)
 
-Decide on what colour you want first with `fill()`, then add the code to draw the shape.
+In `fill(0, 0, 255, 100)` the first three numbers change the red, green and blue colour values of the shape. The fourth number is the transparency. 
+
 
 </div>
