@@ -1,7 +1,7 @@
 <h2 class="c-project-heading--task">Style the background</h2>
 --- task ---
 
-Get started by changing the colour of the background.
+Get started by adding the code below to make a background.
 
 --- /task ---
 

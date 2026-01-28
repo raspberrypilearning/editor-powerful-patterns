@@ -28,7 +28,7 @@ line_highlights: 9-11
 ---
 def setup():
     size(400, 400)
-    background(0, 255, 255)
+    background(0, 255, 255)  # change background colour
 
 def draw():
     rect(100, 50, 120, 100)
