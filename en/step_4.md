@@ -43,9 +43,9 @@ def draw():
 
 <div class="c-project-callout c-project-callout--tip">
 
-### Red, Green, Blue (RGB)
+### Tip
 
-In `fill(0, 0, 255, 100)` the first three numbers change the red, green and blue colour values of the shape. The fourth number is the transparency. 
+In `fill(0, 0, 255, 100)` the first three numbers change the red, green and blue colour values of the shape. The fourth number is the **transparency**. 
 
 
 </div>
