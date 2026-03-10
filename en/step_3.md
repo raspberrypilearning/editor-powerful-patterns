@@ -34,13 +34,13 @@ def draw():
     rect(100, 50, 120, 100)
     ellipse(160, 220, 200, 100)
 --- /code ---
+</div>
 
 --- task ---
 
 **Test:** Run your code to draw some shapes.
 
 --- /task ---
-</div>
 
 <div class="c-project-output">
 ![Visual output screen with two shapes](images/step3.png)

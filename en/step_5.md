@@ -31,13 +31,13 @@ def draw():
         ellipse(160, 220, 200, 100) 
         translate(10, 10)  # Change the position by 10 on the x and y axis
 --- /code ---
+</div>
 
 --- task ---
 
 **Test:** Run the code and make a pattern.
 
 --- /task ---
-</div>
 
 <div class="c-project-output">
 ![EVisual output screen with two shapes in a pattern.](images/step5.png)
@@ -50,4 +50,3 @@ def draw():
 Check that code is indented correctly inside the loop.
 
 </div>
-

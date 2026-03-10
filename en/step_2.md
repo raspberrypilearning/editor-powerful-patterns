@@ -31,15 +31,14 @@ def setup():
     size(400, 400)
     background(0, 255, 255) # change background colour
 --- /code ---
+</div>
 
 --- task ---
 
 **Test:** Run your project and see the background change the colours in the **Visual output** tab.
 
 --- /task ---
-</div>
 
 <div class="c-project-output">
 ![Visual output screen with coloured background](images/step2.png)
 </div>
-

@@ -28,14 +28,13 @@ def draw():
     ellipse(160, 220, 200, 100)
 
 --- /code ---
+</div>
 
 --- task ---
 
 **Test:** Run your code to add colour.
 
 --- /task ---
-
-</div>
 
 <div class="c-project-output">
 ![Visual output screen with two coloured shapes.](images/step4.png)
