@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Random shapes</h2>
-### Step 1
 
 Experiment with `randint` to make animated patterns
 
-
-### Step 2
+### Step 1
 
 `randint()` generates a random number. 
 
@@ -31,7 +29,7 @@ def draw():
 --- /code ---
 </div>
 
-### Step 3
+### Step 2
 
 **Test:** Run the code to test it.
 

@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Play with scale</h2>
-### Step 1
 
 Use the `scale()` code below to change the size of shapes.
 
-
-### Step 2
+### Step 1
 
 Comment out the `translate` code, and experiment with `scale`. Using numbers bigger than ‘1’ will make the shape bigger, using a number smaller than ‘1’ will make it smaller.
 
@@ -31,7 +29,7 @@ def draw():
 --- /code ---
 </div>
 
-### Step 3
+### Step 2
 **Test:** Run the code to see how your pattern looks.
 
 

@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Play with colour</h2>
-### Step 1
 
 Add code to `fill()` your shapes with colour and change your shapes transparency.
 
-
-### Step 2
+### Step 1
 
 Adjust the numbers in `fill()` to make different colours.
 
@@ -28,7 +26,7 @@ def draw():
 --- /code ---
 </div>
 
-### Step 3
+### Step 2
 
 **Test:** Run your code to add colour.
 

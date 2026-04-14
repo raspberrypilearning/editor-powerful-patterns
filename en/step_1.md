@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Style the background</h2>
-### Step 1
 
 Get started by adding the code below to make a background.
 
-
-### Step 2
+### Step 1
 
 Change the `background` colour by experimenting with different values in the starter code.
 
@@ -31,7 +29,7 @@ def setup():
 --- /code ---
 </div>
 
-### Step 3
+### Step 2
 
 **Test:** Run your project and see the background change the colours in the **Visual output** tab.
 

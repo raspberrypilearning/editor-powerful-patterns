@@ -1,15 +1,13 @@
 <h2 class="c-project-heading--task">Create shapes</h2>
-### Step 1
 
 Use the code below to create a `draw()` function with two shapes.
 
-
-### Step 2
+### Step 1
 
 Adjust the numbers in `rect` and `ellipse` to add shapes to your design.
 
 
-### Step 3
+### Step 2
 
 Copy and paste more rectangles and ellipses in the code to add more shapes. 
 
@@ -33,7 +31,7 @@ def draw():
 --- /code ---
 </div>
 
-### Step 4
+### Step 3
 
 **Test:** Run your code to draw some shapes.
 

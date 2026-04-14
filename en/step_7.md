@@ -1,16 +1,14 @@
 <h2 class="c-project-heading--task">Challenges</h2>
-### Step 1
 
 Upgrade your design with emojis and animations.
 
-
-### Step 2
+### Step 1
 
 **Use `randint()`** to change the `ellipse()` or other values in your code.
 
 
 
-### Step 3
+### Step 2
 
 **Remove the shape outline** by adding `no_stroke()` before the shapes.
 
@@ -32,7 +30,7 @@ def draw():
 
 
 
-### Step 4
+### Step 3
 
 **Experiment with a new pattern** by adding `frame_count`. This animates your pattern.
 
@@ -54,7 +52,7 @@ def draw():
 
 
 
-### Step 5
+### Step 4
 
 **Add text** with `print()`, this will show in the **Text ouput** tab.
 
