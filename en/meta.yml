@@ -10,19 +10,19 @@ version: 4
 listed: false
 copyedit: true
 last_tested: "2021-10-06"
+landing: true
 steps:
-  - title: Step 1
-  - title: Step 2
+  - title: Style the background
+  - title: Create shapes
     completion:
       - engaged
-  - title: Step 3
+  - title: Play with colour
+  - title: Turn the shapes
+  - title: Play with scale
     completion:
       - internal
-  - title: Step 4
+  - title: Random shapes
     completion:
       - external
-  - title: Step 5
-  - title: Step 6
-  - title: Step 7
-  - title: Step 8
+  - title: Challenges
     challenge: true

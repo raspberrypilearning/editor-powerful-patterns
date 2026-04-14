@@ -1,21 +1,14 @@
-<h2 class="c-project-heading--task">Create shapes</h2>
---- task ---
+<h2 class="c-project-heading--task">Play with colour</h2>
+### Step 1
 
-Use the code below to create a `draw()` function with two shapes.
+Add code to `fill()` your shapes with colour and change your shapes transparency.
 
---- /task ---
 
---- task ---
+### Step 2
 
-Adjust the numbers in `rect` and `ellipse` to add shapes to your design.
+Adjust the numbers in `fill()` to make different colours.
 
---- /task ---
 
---- task ---
-
-Copy and paste more rectangles and ellipses in the code to add more shapes. 
-
---- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -23,25 +16,32 @@ Copy and paste more rectangles and ellipses in the code to add more shapes.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 4 
-line_highlights: 9-11
+line_number_start: 9
+line_highlights: 10, 12
 ---
-def setup():
-    size(400, 400)
-    background(0, 255, 255)  # change background colour
-
 def draw():
+    fill(255, 0, 255, 200)
     rect(100, 50, 120, 100)
+    fill(0, 0, 255, 100)
     ellipse(160, 220, 200, 100)
+
 --- /code ---
 </div>
 
---- task ---
+### Step 3
 
-**Test:** Run your code to draw some shapes.
+**Test:** Run your code to add colour.
 
---- /task ---
 
 <div class="c-project-output">
-![Visual output screen with two shapes](images/step3.png)
+![Visual output screen with two coloured shapes.](images/step4.png)
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+In `fill(0, 0, 255, 100)` the first three numbers change the red, green and blue colour values of the shape. The fourth number is the **transparency**. 
+
+
 </div>

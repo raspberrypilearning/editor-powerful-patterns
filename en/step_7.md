@@ -1,17 +1,18 @@
-<h2 class="c-project-heading--task">Random shapes</h2>
---- task ---
+<h2 class="c-project-heading--task">Challenges</h2>
+### Step 1
 
-Experiment with `randint` to make animated patterns
+Upgrade your design with emojis and animations.
 
---- /task ---
 
---- task ---
+### Step 2
 
-`randint()` generates a random number. 
+**Use `randint()`** to change the `ellipse()` or other values in your code.
 
-Add it to `rect()` to draw rectangles between -100 and 400.
 
---- /task ---
+
+### Step 3
+
+**Remove the shape outline** by adding `no_stroke()` before the shapes.
 
 <div class="c-project-code">
 --- code ---
@@ -20,28 +21,52 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 9
-line_highlights: 12
+line_highlights: 
 ---
 def draw():
-    for i in range(5):  # Loop 5 times
-        fill(255, 0, 255, 255)    
-        rect(randint(-100, 400), randint(-100, 400), 120, 100) 
-        fill(0, 0, 255, 75)
-        ellipse(160, 220, 200, 100) 
-        # translate(10,10)
-        scale(0.5, 0.5)  # Half size
+    no_stroke()
+    rect(randint(-100, 400), randint(-100, 400), 120, 100)
+    rect(5*frame_count, 50, 120, 100) 
 --- /code ---
 </div>
 
---- task ---
-
-**Test:** Run the code to test it.
-
---- /task ---
 
 
-<div class="c-project-output">
-![Visual output screen with two shapes randomly being drawn to the screen.](images/step7.gif)
+### Step 4
+
+**Experiment with a new pattern** by adding `frame_count`. This animates your pattern.
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 9
+line_highlights: 
+---
+def draw():
+    no_stroke()
+    fill(255, 0, 255, +frame_count) 
+    rect(5*frame_count, 50, 120, 100) 
+--- /code ---
 </div>
 
 
+
+### Step 5
+
+**Add text** with `print()`, this will show in the **Text ouput** tab.
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 21
+line_highlights: 
+---
+print('🟪 󠁢Look at these shapes! 🔵')
+--- /code ---
+</div>

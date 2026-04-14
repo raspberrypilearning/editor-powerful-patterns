@@ -1,16 +1,14 @@
-<h2 class="c-project-heading--task">Play with scale</h2>
---- task ---
+<h2 class="c-project-heading--task">Random shapes</h2>
+### Step 1
 
-Use the `scale()` code below to change the size of shapes.
+Experiment with `randint` to make animated patterns
 
---- /task ---
 
---- task ---
+### Step 2
 
-Comment out the `translate` code, and experiment with `scale`. Using numbers bigger than ‘1’ will make the shape bigger, using a number smaller than ‘1’ will make it smaller.
+`randint()` generates a random number. 
 
---- /task ---
-
+Add it to `rect()` to draw rectangles between -100 and 400.
 
 
 <div class="c-project-code">
@@ -20,12 +18,12 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 9
-line_highlights: 15-16
+line_highlights: 12
 ---
 def draw():
     for i in range(5):  # Loop 5 times
         fill(255, 0, 255, 255)    
-        rect(50, 50, 120, 100) 
+        rect(randint(-100, 400), randint(-100, 400), 120, 100) 
         fill(0, 0, 255, 75)
         ellipse(160, 220, 200, 100) 
         # translate(10,10)
@@ -33,23 +31,12 @@ def draw():
 --- /code ---
 </div>
 
---- task ---
-**Test:** Run the code to see how your pattern looks.
+### Step 3
 
---- /task ---
+**Test:** Run the code to test it.
+
 
 
 <div class="c-project-output">
-![Visual output screen with two shapes in a range of scale.](images/step6.png)
+![Visual output screen with two shapes randomly being drawn to the screen.](images/step7.gif)
 </div>
-
-
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-`scale()` changes the drawing each time the loop runs, so the shapes get smaller and appear in different places.
-
-</div>
-

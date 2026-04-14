@@ -1,44 +1,43 @@
-<h2 class="c-project-heading--task">Style the background</h2>
---- task ---
+<h2 class="c-project-heading--task">Create shapes</h2>
+### Step 1
 
-Get started by adding the code below to make a background.
+Use the code below to create a `draw()` function with two shapes.
 
---- /task ---
 
---- task ---
+### Step 2
 
-Change the `background` colour by experimenting with different values in the starter code.
+Adjust the numbers in `rect` and `ellipse` to add shapes to your design.
 
---- /task ---
 
-<div class="c-project-callout c-project-callout--tip">
-### Red, green, blue
-The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
-</div> 
+### Step 3
+
+Copy and paste more rectangles and ellipses in the code to add more shapes. 
+
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
+filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights: 5-6
+line_number_start: 4 
+line_highlights: 9-11
 ---
-from p5 import *
-from random import randint
-
 def setup():
     size(400, 400)
-    background(0, 255, 255) # change background colour
+    background(0, 255, 255)  # change background colour
+
+def draw():
+    rect(100, 50, 120, 100)
+    ellipse(160, 220, 200, 100)
 --- /code ---
 </div>
 
---- task ---
+### Step 4
 
-**Test:** Run your project and see the background change the colours in the **Visual output** tab.
+**Test:** Run your code to draw some shapes.
 
---- /task ---
 
 <div class="c-project-output">
-![Visual output screen with coloured background](images/step2.png)
+![Visual output screen with two shapes](images/step3.png)
 </div>

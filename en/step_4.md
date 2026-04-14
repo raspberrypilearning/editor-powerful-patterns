@@ -1,15 +1,15 @@
-<h2 class="c-project-heading--task">Play with colour</h2>
---- task ---
+<h2 class="c-project-heading--task">Turn the shapes</h2>
+### Step 1
 
-Add code to `fill()` your shapes with colour and change your shapes transparency.
+Put your shapes into a loop, and use `translate` to make some repeated patterns.
 
---- /task ---
 
---- task ---
+<h2 class="c-project-heading--explainer">Translate</h2>
+`translate` changes the starting position. In a loop these turns the shape a different amount each time.
 
-Adjust the numbers in `fill()` to make different colours.
+### Step 2
 
---- /task ---
+Put your code into a loop, every time it runs the starting position will change by the numbers you use in `translate()`. 
 
 
 <div class="c-project-code">
@@ -19,32 +19,31 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 9
-line_highlights: 10, 12
+line_highlights: 10-15
 ---
 def draw():
-    fill(255, 0, 255, 200)
-    rect(100, 50, 120, 100)
-    fill(0, 0, 255, 100)
-    ellipse(160, 220, 200, 100)
-
+    for i in range(5):  # Loop 5 times
+        fill(255, 0, 255, 255)    
+        rect(50, 50, 120, 100) 
+        fill(0, 0, 255, 75)
+        ellipse(160, 220, 200, 100) 
+        translate(10, 10)  # Change the position by 10 on the x and y axis
 --- /code ---
 </div>
 
---- task ---
+### Step 3
 
-**Test:** Run your code to add colour.
+**Test:** Run the code and make a pattern.
 
---- /task ---
 
 <div class="c-project-output">
-![Visual output screen with two coloured shapes.](images/step4.png)
+![EVisual output screen with two shapes in a pattern.](images/step5.png)
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
+<div class="c-project-callout c-project-callout--debug">
 
-### Tip
+### Debugging
 
-In `fill(0, 0, 255, 100)` the first three numbers change the red, green and blue colour values of the shape. The fourth number is the **transparency**. 
-
+Check that code is indented correctly inside the loop.
 
 </div>

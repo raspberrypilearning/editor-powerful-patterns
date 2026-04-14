@@ -1,18 +1,15 @@
-<h2 class="c-project-heading--task">Turn the shapes</h2>
---- task ---
+<h2 class="c-project-heading--task">Play with scale</h2>
+### Step 1
 
-Put your shapes into a loop, and use `translate` to make some repeated patterns.
+Use the `scale()` code below to change the size of shapes.
 
---- /task ---
 
-<h2 class="c-project-heading--explainer">Translate</h2>
-`translate` changes the starting position. In a loop these turns the shape a different amount each time.
+### Step 2
 
---- task ---
+Comment out the `translate` code, and experiment with `scale`. Using numbers bigger than ‘1’ will make the shape bigger, using a number smaller than ‘1’ will make it smaller.
 
-Put your code into a loop, every time it runs the starting position will change by the numbers you use in `translate()`. 
 
---- /task ---
+
 
 <div class="c-project-code">
 --- code ---
@@ -21,7 +18,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 9
-line_highlights: 10-15
+line_highlights: 15-16
 ---
 def draw():
     for i in range(5):  # Loop 5 times
@@ -29,24 +26,26 @@ def draw():
         rect(50, 50, 120, 100) 
         fill(0, 0, 255, 75)
         ellipse(160, 220, 200, 100) 
-        translate(10, 10)  # Change the position by 10 on the x and y axis
+        # translate(10,10)
+        scale(0.5, 0.5)  # Half size
 --- /code ---
 </div>
 
---- task ---
+### Step 3
+**Test:** Run the code to see how your pattern looks.
 
-**Test:** Run the code and make a pattern.
 
---- /task ---
 
 <div class="c-project-output">
-![EVisual output screen with two shapes in a pattern.](images/step5.png)
+![Visual output screen with two shapes in a range of scale.](images/step6.png)
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
 
-### Debugging
 
-Check that code is indented correctly inside the loop.
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+`scale()` changes the drawing each time the loop runs, so the shapes get smaller and appear in different places.
 
 </div>
