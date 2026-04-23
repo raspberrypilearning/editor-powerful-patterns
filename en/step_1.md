@@ -2,13 +2,13 @@
 
 Get started by adding the code below to make a background.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Change the `background` colour by experimenting with different values in the starter code.
 
 
-<div class="c-project-callout c-project-callout--tip">
 ### Red, green, blue
+<div class="c-project-callout c-project-callout--tip">
 The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
 </div> 
 
@@ -29,11 +29,13 @@ def setup():
 --- /code ---
 </div>
 
-### Step 2
+## Now run your code
 
-**Test:** Run your project and see the background change the colours in the **Visual output** tab.
+Run your project and see the background change the colours in the **Visual output** tab.
 
 
 <div class="c-project-output">
 ![Visual output screen with coloured background](images/step2.png)
 </div>
+
+Confirm the observable result.

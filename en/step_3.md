@@ -2,7 +2,7 @@
 
 Add code to `fill()` your shapes with colour and change your shapes transparency.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Adjust the numbers in `fill()` to make different colours.
 
@@ -26,20 +26,22 @@ def draw():
 --- /code ---
 </div>
 
-### Step 2
+## Now run your code
 
-**Test:** Run your code to add colour.
+Add colour.
 
 
 <div class="c-project-output">
 ![Visual output screen with two coloured shapes.](images/step4.png)
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 In `fill(0, 0, 255, 100)` the first three numbers change the red, green and blue colour values of the shape. The fourth number is the **transparency**. 
 
 
 </div>
+
+Confirm the observable result.

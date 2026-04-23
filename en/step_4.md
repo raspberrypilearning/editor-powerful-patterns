@@ -3,9 +3,8 @@
 Put your shapes into a loop, and use `translate` to make some repeated patterns.
 
 <h2 class="c-project-heading--explainer">Translate</h2>
-`translate` changes the starting position. In a loop these turns the shape a different amount each time.
 
-### Step 1
+`translate` changes the starting position. In a loop these turns the shape a different amount each time.
 
 Put your code into a loop, every time it runs the starting position will change by the numbers you use in `translate()`. 
 
@@ -29,19 +28,21 @@ def draw():
 --- /code ---
 </div>
 
-### Step 2
+## Now run your code
 
-**Test:** Run the code and make a pattern.
+Make a pattern.
 
 
 <div class="c-project-output">
 ![EVisual output screen with two shapes in a pattern.](images/step5.png)
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 Check that code is indented correctly inside the loop.
 
 </div>
+
+Confirm the observable result.

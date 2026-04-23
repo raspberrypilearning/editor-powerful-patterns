@@ -2,7 +2,7 @@
 
 Use the `scale()` code below to change the size of shapes.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Comment out the `translate` code, and experiment with `scale`. Using numbers bigger than ‘1’ will make the shape bigger, using a number smaller than ‘1’ will make it smaller.
 
@@ -29,8 +29,9 @@ def draw():
 --- /code ---
 </div>
 
-### Step 2
-**Test:** Run the code to see how your pattern looks.
+## Now run your code
+
+You should see how your pattern looks.
 
 
 
@@ -40,10 +41,12 @@ def draw():
 
 
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 `scale()` changes the drawing each time the loop runs, so the shapes get smaller and appear in different places.
 
 </div>
+
+Confirm the observable result.

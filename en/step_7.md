@@ -2,13 +2,13 @@
 
 Upgrade your design with emojis and animations.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 **Use `randint()`** to change the `ellipse()` or other values in your code.
 
-
-
-### Step 2
+## Step 2
 
 **Remove the shape outline** by adding `no_stroke()` before the shapes.
 
@@ -28,9 +28,7 @@ def draw():
 --- /code ---
 </div>
 
-
-
-### Step 3
+## Step 3
 
 **Experiment with a new pattern** by adding `frame_count`. This animates your pattern.
 
@@ -50,9 +48,7 @@ def draw():
 --- /code ---
 </div>
 
-
-
-### Step 4
+## Step 4
 
 **Add text** with `print()`, this will show in the **Text ouput** tab.
 
@@ -68,3 +64,7 @@ line_highlights:
 print('🟪 󠁢Look at these shapes! 🔵')
 --- /code ---
 </div>
+
+## Now run your code
+
+Confirm the observable result.

@@ -2,12 +2,13 @@
 
 Use the code below to create a `draw()` function with two shapes.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Adjust the numbers in `rect` and `ellipse` to add shapes to your design.
 
-
-### Step 2
+## Step 2
 
 Copy and paste more rectangles and ellipses in the code to add more shapes. 
 
@@ -31,11 +32,13 @@ def draw():
 --- /code ---
 </div>
 
-### Step 3
+## Now run your code
 
-**Test:** Run your code to draw some shapes.
+Draw some shapes.
 
 
 <div class="c-project-output">
 ![Visual output screen with two shapes](images/step3.png)
 </div>
+
+Confirm the observable result.

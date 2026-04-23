@@ -2,7 +2,7 @@
 
 Experiment with `randint` to make animated patterns
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 `randint()` generates a random number. 
 
@@ -29,12 +29,14 @@ def draw():
 --- /code ---
 </div>
 
-### Step 2
+## Now run your code
 
-**Test:** Run the code to test it.
+Test it.
 
 
 
 <div class="c-project-output">
 ![Visual output screen with two shapes randomly being drawn to the screen.](images/step7.gif)
 </div>
+
+Confirm the observable result.
