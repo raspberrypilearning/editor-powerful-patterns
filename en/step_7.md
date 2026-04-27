@@ -67,4 +67,4 @@ print('🟪 󠁢Look at these shapes! 🔵')
 
 ## Now run your code
 
-Confirm the observable result.
+Run your project and check that the rectangle moves across the screen and `🟪 Look at these shapes! 🔵` appears in **Text output**.

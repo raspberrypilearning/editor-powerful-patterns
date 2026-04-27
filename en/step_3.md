@@ -44,4 +44,4 @@ In `fill(0, 0, 255, 100)` the first three numbers change the red, green and blue
 
 </div>
 
-Confirm the observable result.
+Run your project and check that the two shapes are now coloured.

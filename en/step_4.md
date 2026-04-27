@@ -45,4 +45,4 @@ Check that code is indented correctly inside the loop.
 
 </div>
 
-Confirm the observable result.
+Run your project and check that the shapes repeat to make a pattern.

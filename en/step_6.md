@@ -39,4 +39,4 @@ Test it.
 ![Visual output screen with two shapes randomly being drawn to the screen.](images/step7.gif)
 </div>
 
-Confirm the observable result.
+Run your project and check that rectangles appear in different random positions.

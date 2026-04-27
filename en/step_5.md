@@ -49,4 +49,4 @@ You should see how your pattern looks.
 
 </div>
 
-Confirm the observable result.
+Run your project and check that the repeated shapes get smaller across the pattern.

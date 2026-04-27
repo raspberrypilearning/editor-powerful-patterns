@@ -41,4 +41,4 @@ Draw some shapes.
 ![Visual output screen with two shapes](images/step3.png)
 </div>
 
-Confirm the observable result.
+Run your project and check that a rectangle and an ellipse appear in **Visual output**.
