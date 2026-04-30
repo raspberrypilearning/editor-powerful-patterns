@@ -1,14 +1,28 @@
-title: Project title in sentence case
+---
+title: Powerful patterns
 hero_image: images/banner.png
-description: A short description of the project
+description:
+  Create a piece of inspirational art that can be scaled using repeated
+  patterns
+meta_title: Python coding projects for kids and teens | Powerful patterns
+meta_description: Learn Python with the Raspberry Pi Foundation's coding projects for kids and teens. Create a piece of inspirational art with Python using repeated patterns.
+version: 4
 listed: false
-pdf: false
+copyedit: true
+last_tested: "2021-10-06"
+landing: true
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: Style the background
+  - title: Create shapes
     completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
+      - engaged
+  - title: Play with colour
+  - title: Turn the shapes
+  - title: Play with scale
+    completion:
+      - internal
+  - title: Random shapes
     completion:
       - external
+  - title: Challenges
+    challenge: true

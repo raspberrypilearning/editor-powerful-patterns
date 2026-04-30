@@ -1,0 +1,4 @@
+name: "Powerful Patterns"
+identifier: "editor-powerful-patterns-starter"
+type: 'python'
+build: true
