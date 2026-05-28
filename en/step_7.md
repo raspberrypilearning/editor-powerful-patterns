@@ -2,8 +2,6 @@
 
 Upgrade your design with emojis and animations.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 **Use `randint()`** to change the `ellipse()` or other values in your code.
