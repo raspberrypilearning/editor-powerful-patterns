@@ -2,8 +2,6 @@
 
 Get started by adding the code below to make a background.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Change the `background` colour by experimenting with different values in the starter code.
 
 
