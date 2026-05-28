@@ -2,8 +2,6 @@
 
 Add code to `fill()` your shapes with colour and change your shapes transparency.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Adjust the numbers in `fill()` to make different colours.
 
 

@@ -2,12 +2,7 @@
 
 Use the `scale()` code below to change the size of shapes.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Comment out the `translate` code, and experiment with `scale`. Using numbers bigger than ‘1’ will make the shape bigger, using a number smaller than ‘1’ will make it smaller.
-
-
-
 
 <div class="c-project-code">
 --- code ---

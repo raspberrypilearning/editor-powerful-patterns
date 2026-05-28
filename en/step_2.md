@@ -2,8 +2,6 @@
 
 Use the code below to create a `draw()` function with two shapes.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Adjust the numbers in `rect` and `ellipse` to add shapes to your design.
