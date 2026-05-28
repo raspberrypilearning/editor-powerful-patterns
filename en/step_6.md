@@ -2,8 +2,6 @@
 
 Experiment with `randint` to make animated patterns
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 `randint()` generates a random number. 
 
 Add it to `rect()` to draw rectangles between -100 and 400.
