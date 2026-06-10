@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Play with colour</h2>
 
-Add code to `fill()` your shapes with colour and change your shapes transparency.
+Add code to `fill()` your shapes with colour and change your shapes' transparency.
 
 Adjust the numbers in `fill()` to make different colours.
 
@@ -12,8 +12,8 @@ Adjust the numbers in `fill()` to make different colours.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 9
-line_highlights: 10, 12
+line_number_start: 8
+line_highlights: 9, 11
 ---
 def draw():
     fill(255, 0, 255, 200)
@@ -26,20 +26,20 @@ def draw():
 
 ## Now run your code
 
-Add colour.
+See the colours.
 
 
 <div class="c-project-output">
-![Visual output screen with two coloured shapes.](images/step4.png)
+![A pink rectangle and a blue ellipse with black outlines on an aqua background in the Visual output.](images/step4.png)
 </div>
 
 ### Tip
 
 <div class="c-project-callout c-project-callout--tip">
 
-In `fill(0, 0, 255, 100)` the first three numbers change the red, green and blue colour values of the shape. The fourth number is the **transparency**. 
+In `fill(0, 0, 255, 100)`, the first three numbers change the red, green, and blue colour values of the shape. The fourth number is the **transparency**. 
 
 
 </div>
 
-Run your project and check that the two shapes are now coloured.
+Run your project and check that the shapes are now coloured.

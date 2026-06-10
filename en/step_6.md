@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Random shapes</h2>
 
-Experiment with `randint` to make animated patterns
+Experiment with `randint()` to make animated patterns.
 
 `randint()` generates a random number. 
 
-Add it to `rect()` to draw rectangles between -100 and 400.
+Add it to `rect()` to draw rectangles between `-100` and `400`.
 
 
 <div class="c-project-code">
@@ -13,8 +13,8 @@ Add it to `rect()` to draw rectangles between -100 and 400.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 9
-line_highlights: 12
+line_number_start: 8
+line_highlights: 11
 ---
 def draw():
     for i in range(5):  # Loop 5 times
@@ -23,18 +23,18 @@ def draw():
         fill(0, 0, 255, 75)
         ellipse(160, 220, 200, 100) 
         # translate(10,10)
-        scale(0.5, 0.5)  # Half size
+        scale(0.5, 0.5)  # Half-size
 --- /code ---
 </div>
 
 ## Now run your code
 
-Test it.
+Test your project.
 
 
 
 <div class="c-project-output">
-![Visual output screen with two shapes randomly being drawn to the screen.](images/step7.gif)
+![An animation of pink rectangles appearing randomly in the Visual ouput, while the blue ellipses remain in their diagonal pattern.](images/step7.gif)
 </div>
 
 Run your project and check that rectangles appear in different random positions.
