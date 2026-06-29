@@ -16,13 +16,13 @@ Upgrade your design with emojis and animations.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 9
+line_number_start: 8
 line_highlights: 
 ---
 def draw():
     no_stroke()
+    fill(255, 0, 255, 255)    
     rect(randint(-100, 400), randint(-100, 400), 120, 100)
-    rect(5*frame_count, 50, 120, 100) 
 --- /code ---
 </div>
 
@@ -36,7 +36,7 @@ def draw():
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 9
+line_number_start: 8
 line_highlights: 
 ---
 def draw():
@@ -48,7 +48,7 @@ def draw():
 
 ## Step 4
 
-**Add text** with `print()`, this will show in the **Text ouput** tab.
+**Add text** with `print()`. This will show in the **Text ouput** tab.
 
 <div class="c-project-code">
 --- code ---
@@ -56,7 +56,7 @@ def draw():
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 21
+line_number_start: 20
 line_highlights: 
 ---
 print('🟪 󠁢Look at these shapes! 🔵')
@@ -65,4 +65,4 @@ print('🟪 󠁢Look at these shapes! 🔵')
 
 ## Now run your code
 
-Run your project and check that the rectangle moves across the screen and `🟪 Look at these shapes! 🔵` appears in **Text output**.
+Run your project and check that the rectangle moves across the screen and `🟪 Look at these shapes! 🔵` appears in the **Text output**.

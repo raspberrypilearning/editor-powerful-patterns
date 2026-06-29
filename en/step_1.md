@@ -1,8 +1,8 @@
 <h2 class="c-project-heading--task">Style the background</h2>
 
-Get started by adding the code below to make a background.
+Add the code below to make a background.
 
-Change the `background` colour by experimenting with different values in the starter code.
+To change the `background` colour, experiment with different values in the starter code.
 
 
 ### Red, green, blue
@@ -30,7 +30,7 @@ def setup():
 ## Now run your code
 
 <div class="c-project-output">
-![Visual output screen with coloured background](images/step2.png)
+![The Visual output with an aqua background.](images/step2.png)
 </div>
 
 Run your project and check that the **Visual output** background changes to the new colour.
