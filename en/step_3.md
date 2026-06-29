@@ -16,7 +16,7 @@ line_number_start: 8
 line_highlights: 9, 11
 ---
 def draw():
-    fill(255, 0, 255, 200)
+    fill(255, 0, 255, 255)
     rect(100, 50, 120, 100)
     fill(0, 0, 255, 100)
     ellipse(160, 220, 200, 100)

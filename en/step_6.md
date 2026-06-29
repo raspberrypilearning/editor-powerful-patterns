@@ -20,7 +20,7 @@ def draw():
     for i in range(5):  # Loop 5 times
         fill(255, 0, 255, 255)    
         rect(randint(-100, 400), randint(-100, 400), 120, 100) 
-        fill(0, 0, 255, 75)
+        fill(0, 0, 255, 100)
         ellipse(160, 220, 200, 100) 
         # translate(10,10)
         scale(0.5, 0.5)  # Half-size

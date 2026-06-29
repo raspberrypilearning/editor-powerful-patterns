@@ -21,8 +21,8 @@ line_highlights:
 ---
 def draw():
     no_stroke()
+    fill(255, 0, 255, 255)    
     rect(randint(-100, 400), randint(-100, 400), 120, 100)
-    rect(5*frame_count, 50, 120, 100) 
 --- /code ---
 </div>
 
