@@ -2,12 +2,13 @@
 
 Put your shapes into a loop, and use `translate()` to make some repeated patterns.
 
-<h2 class="c-project-heading--explainer">Translate</h2>
+<div class="c-project-callout c-project-callout--tip">
 
-`translate()` changes the starting position.
+### Translate
 
-If you put your code into a loop, every time it runs, the starting position will change by the numbers you use in `translate()`. 
+`translate()` changes the starting position. If you put your code into a loop, every time it runs, the starting position will change by the numbers you use in `translate()`. 
 
+</div>
 
 <div class="c-project-code">
 --- code ---
@@ -30,18 +31,19 @@ def draw():
 
 ## Now run your code
 
-See your pattern.
+Check that the shapes repeat to make a pattern.
 
 <div class="c-project-output">
+
 ![A pattern of pink rectangles and blue ellipses climbing diagonally to the left in the Visual output.](images/step5.png)
+
 </div>
 
-### Debugging
-
 <div class="c-project-callout c-project-callout--debug">
+
+### Debugging
 
 Check that your code is indented correctly inside the loop.
 
 </div>
 
-Run your project and check that the shapes repeat to make a pattern.

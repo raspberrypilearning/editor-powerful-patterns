@@ -26,20 +26,19 @@ def draw():
 
 ## Now run your code
 
-See how your pattern looks.
+Check that the repeated shapes get smaller across the pattern.
+
 
 <div class="c-project-output">
+
 ![A pattern of pink rectangles and blue ellipses climbing diagonally to the left in the Visual output. The shapes are large at the start and the sizes decrease throughout the pattern.](images/step6.png)
+
 </div>
 
-
+<div class="c-project-callout c-project-callout--tip">
 
 ### Tip
-
-<div class="c-project-callout c-project-callout--tip">
 
 `scale()` changes the drawing each time the loop runs, so the shapes get smaller and appear in different places.
 
 </div>
-
-Run your project and check that the repeated shapes get smaller across the pattern.

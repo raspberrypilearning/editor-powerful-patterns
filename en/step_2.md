@@ -31,11 +31,11 @@ If you would like to add more shapes, copy and paste more rectangles and ellipse
 
 ## Now run your code
 
-Draw some shapes.
-
+Check that a rectangle and an ellipse (or more) appear in the **Visual output**.
 
 <div class="c-project-output">
+
 ![A white rectangle and a white ellipse with black outlines on an aqua background in the Visual output.](images/step3.png)
+
 </div>
 
-Run your project and check that a rectangle and an ellipse (or more) appear in the **Visual output**.

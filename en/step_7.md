@@ -2,11 +2,11 @@
 
 Upgrade your design with emojis and animations.
 
-## Step 1
+## Use `randint()
 
 **Use `randint()`** to change the `ellipse()` or other values in your code.
 
-## Step 2
+## Remove the shape outline
 
 **Remove the shape outline** by adding `no_stroke()` before the shapes.
 
@@ -26,7 +26,7 @@ def draw():
 --- /code ---
 </div>
 
-## Step 3
+## Experiment with a new pattern
 
 **Experiment with a new pattern** by adding `frame_count`. This animates your pattern.
 
@@ -46,7 +46,7 @@ def draw():
 --- /code ---
 </div>
 
-## Step 4
+## Add text
 
 **Add text** with `print()`. This will show in the **Text ouput** tab.
 
@@ -62,7 +62,3 @@ line_highlights:
 print('🟪 󠁢Look at these shapes! 🔵')
 --- /code ---
 </div>
-
-## Now run your code
-
-Run your project and check that the rectangle moves across the screen and `🟪 Look at these shapes! 🔵` appears in the **Text output**.

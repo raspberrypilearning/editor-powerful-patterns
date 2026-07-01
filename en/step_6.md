@@ -1,11 +1,8 @@
 <h2 class="c-project-heading--task">Random shapes</h2>
 
-Experiment with `randint()` to make animated patterns.
-
 `randint()` generates a random number. 
 
-Add it to `rect()` to draw rectangles between `-100` and `400`.
-
+Experiment with `randint()` to make animated patterns. Add it to `rect()` to draw rectangles between `-100` and `400`.
 
 <div class="c-project-code">
 --- code ---
@@ -29,12 +26,11 @@ def draw():
 
 ## Now run your code
 
-Test your project.
-
-
+Check that rectangles appear in different random positions.
 
 <div class="c-project-output">
+
 ![An animation of pink rectangles appearing randomly in the Visual ouput, while the blue ellipses remain in their diagonal pattern.](images/step7.gif)
+
 </div>
 
-Run your project and check that rectangles appear in different random positions.
